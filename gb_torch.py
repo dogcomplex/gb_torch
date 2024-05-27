@@ -239,7 +239,7 @@ class GameBoyEmulator:
         try:
             while self.running:
                 with self.lock:
-                    #print(f"\033[H\033[J{self.render_screen()}")  # Clear screen and render
+                    print(f"\033[H\033[J{self.render_screen()}")  # Clear screen and render
                     print(f"Registers: {self.registers}")
                     print(f"Flags: {self.flags}")
                 time.sleep(1)
