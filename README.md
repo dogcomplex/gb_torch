@@ -8,6 +8,41 @@ Still WIP, needing debugging to get it rendering an arbitrary .gb file (aiming f
 
 I'm impressed by GPT4's ability to generate this, but there's certainly a bit of programmer effort (and only a tiny bit of personal intelligence) involved - unfortunately!  The true masterpiece will be when we can create complex code like this fuelled with nothing but lazy childlike wonder, but oh well.  Soon.
 
+Current WIP output (reading pokemon rom):
+
+```
+  ░░░░░░      ░░░░░░        ░░░░░░░░
+░░  ░░          ░░          ░░      ░░
+  ░░░░░░    ░░░░░░░░      ░░░░░░      ░░
+░░      ░░  ░░      ░░  ░░      ░░  ░░
+░░░░    ░░░░░░░░      ░░░░░░      ░░░░░░
+    ░░  ░░          ░░          ░░
+      ░░░░░░      ░░░░░░      ░░░░░░
+    ░░  ░░      ░░  ░░    ░░    ░░░░░░
+      ░░░░░░      ░░░░░░  ▒▒  ░░░░  ▒▒
+░░    ░░░░    ░░░░  ░░░░▒▒      ░░▒▒  ░░
+░░    ░░░░    ░░░░  ░░░░░░      ░░    ░░
+  ░░░░  ░░░░░░  ░░░░▒▒░░░░▒▒  ░░      ░░
+░░  ░░░░░░░░░░  ░░░░░░░░    ░░░░░░  ░░░░
+  ░░░░  ░░  ░░░░░░  ░░      ░░  ░░  ░░░░
+░░      ░░  ░░▒▒░░░░  ░░  ░░▒▒  ░░  ░░
+    ░░░░░░░░  ░░          ░░░░░░  ░░  ░░
+░░  ░░░░░░    ░░  ░░    ░░    ░░    ░░
+░░  ░░  ░░░░  ░░  ░░░░      ░░░░      ░░
+░░  ░░░░  ░░    ░░  ░░  ░░░░  ░░    ░░
+▒▒  ░░░░  ░░  ░░░░  ░░  ░░░░  ░░  ░░░░
+░░░░  ░░    ░░  ░░    ░░  ░░  ░░░░  ░░
+░░░░      ░░░░  ░░  ░░░░  ░░  ░░░░░░
+  ░░    ░░  ░░  ░░░░  ░░  ░░░░  ░░░░
+░░░░░░░░      ░░    ░░░░  ░░▒▒  ░░░░
+  ░░░░▒▒  ░░  ░░      ░░  ░░░░    ░░  ░░
+
+Registers: tensor([    0,     1,     0,    19,     0,   216,     1,    77, 65532,   109],
+       device='cuda:0', dtype=torch.int32)
+Flags: {'Z': 0, 'N': 1, 'H': 1, 'C': 1}
+```
+
+
 Closing analyses: 
 
 ===== 
